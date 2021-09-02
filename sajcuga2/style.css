@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+@media (max-width: 600px) {
+    main{
+        background-color: black;
+    }
+    
+}
+
+header{
+    height: 200px;
+}
+#dugme-nav{
+    float:left;
+    width:70px;
+    height:55px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 4px black solid;
+    border-radius: 15px;
+    background-color: rgba(73, 71, 71,0.5);
+    box-shadow: 3px 3px rgb(73, 71, 71);
+    transition: background-color 0.3s;
+
+}
+.bar{
+    
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 7px auto;
+    border-radius: 5px;
+}
+#dugme-nav:hover{
+    background-color: rgb(73, 71, 71);
+    cursor: pointer;
+}
+#dugme-nav:hover .bar{
+    background-color: white;
+}
+
+#dugme-nav:active{
+    background-color: rgb(73, 71, 71);
+    transform: 
+    translateX(3px)
+    translateY(3px);
+    box-shadow: 0px 0px rgb(73, 71, 71);
+    cursor: pointer;
+}
+
+#levi-saringan{
+    width: 200px;
+    height: auto;
+    float: right;
+    z-index: -2;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(73, 71, 71);
+    height: 200px;
+    clip-path: polygon(33% 0%,100% 0%,100% 100%);
+    transition: transform 1s;
+}
+    
+    nav:active{
+        transform: 
+        translateX(200px)
+        translateY(-200px);
+        
+    }
+    
+    
+/*********************************************************************************************************/
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.kontejner{
+    display:flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 22px;
+    margin-top: 21px;
+    
+}
+.divovi{
+    width: 30%;
+    height: 350px;
+    margin: auto 30px ;
+    border:10px black solid;
+    border-radius: 25px;
+    transition: 0.5s;
+    
+}
+.divovi:hover{  
+    width: 32%;
+    height: 400px;
+    
+}
+#div4{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div4:hover{
+    
+    background-color: black;
+}
+
+/************************************************************************************************************/
+footer{
+    background-color: rgb(73, 71, 71);
+    /* border-top: 3px black solid; */
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color:white;
+    
+   
+}
+#futer-text{
+    width: 50%;
+    height: 150px;
+    padding: 3px;
+   
+    
+}
+#trougao{
+    background-color: white;
+    width: 100%;
+    height:200px;
+    clip-path: polygon(0 0,0% 100%,101% -1%);
+    
+    
+    
+}
+
+
+
+
+
